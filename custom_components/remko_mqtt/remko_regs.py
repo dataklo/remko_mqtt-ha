@@ -52,7 +52,7 @@ REMKO_REGISTERS = [
     ("timeprogram_hc_b", ["1941", "timeprogram", "", "", "", "", False], ALL),
     ("timeprogram_hc_c", ["1942", "timeprogram", "", "", "", "", False], ALL),
     ("temp_adjust", ["1946", "sensor_temp_inp", "ºC", -10.0, 10.0, "", True], ALL),
-    ("main_mode", ["1951", "select_input", "", "", "", "", True], {WKF}),
+    ("main_mode", ["1088", "select_input", "", "", "", "", True], {WKF}),
     ("system_separation", ["1967", "sensor_mode", "", "", "", "", False], ALL),
     ("heating_circ_mode", ["1972", "switch", "", "", "", "", False], ALL),
     ("fixed_temp_req", ["1974", "sensor_temp_inp", "ºC", 20.0, 60.0, "", False], ALL),
